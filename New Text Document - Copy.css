@@ -1,0 +1,285 @@
+.navbar{
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    background: black;
+    color: red;
+}
+.mass{
+
+   margin: 400px;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(246, 250, 255), 0 0 25px #e2d338, 0 0 5px rgb(255, 0, 9);
+    font-family: "Segoe Print";
+    font-size: 80px;
+}
+.mass:hover{
+    /*background: rgba(125, 125, 129, 0.84);*/
+    /*height: 120px;*/
+    /*border-radius: 55px;*/
+
+    color: rgb(255, 248, 249);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px #e21700, 0 0 5px rgb(255, 255, 107);
+}
+/*card*/
+
+.sa1{
+    background-image: url("image/Fuschia_hair.jpg");
+}
+.sa2{
+    background-image: url("image/love.jpg")
+}
+.sa3{
+    background-image: url("image/manalone.jpg")
+}
+.sa4{
+    background-image: url("image/art2.jpg")
+}
+.sa90{
+    display: none;
+}
+.sa1:hover .sa90{
+    display: block;
+}
+.sa91{
+    display: none;
+}
+.sa2:hover .sa91{
+    display: block;
+}
+.sa92{
+    display: none;
+}
+.sa3:hover .sa92{
+    display: block;
+}
+.sa93{
+    display: none;
+}
+.sa4:hover .sa93{
+    display: block;
+}
+.colors{
+    color: #abffd1;
+}
+
+.bgstyle{
+    /*background-image: url("download.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: scroll;
+    width: 300px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+.bgstyle:hover{
+    background-image: url("image/color.jpg");
+    width: 500px;
+    height: 450px;
+}
+.sasan{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*color: white;*/
+    font-size: 50px;
+    font-family: "Segoe Script";
+}
+
+/*text*/
+
+.text1{
+    text-align: center;
+    font-family: "Segoe UI Light";
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 0, 18), 0 0 25px #e22500, 0 0 5px rgb(19, 0, 255);
+}
+.butn{
+    position: absolute;
+    left: 31%;
+}
+.butns{
+
+}
+.butns:hover{
+    /*background-color: rgba(0, 0, 0, .2);*/
+}
+.black{
+    color: black;
+}
+.red{color: red}
+
+
+.h101{
+    width: auto;
+    height: 2cm;
+    margin-top: 1cm;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(13, 255, 0), 0 0 25px #00e240, 0 0 5px rgb(19, 0, 255);
+    text-align: center;
+}
+.mpos{
+    width: 6cm;
+    text-align: center;
+
+}
+.commentin{
+     display: none;
+     width: 7cm;
+ }
+.commentin2{
+    display: none;
+    width: 7cm;
+}
+.commentin3{
+    display: none;
+    width: 7cm;
+}
+.commentin4{
+    display: none;
+    width: 7cm;
+}
+.commentin5{
+    display: none;
+    width: 7cm;
+}
+.commentin6{
+    display: none;
+    width: 7cm;
+}
+.commentin7{
+    display: none;
+    width: 7cm;
+}
+.commentin8{
+    display: none;
+    width: 7cm;
+}
+.commentin9{
+    display: none;
+    width: 7cm;
+}
+.commentin10{
+    display: none;
+    width: 7cm;
+}
+.commentin11{
+    display: none;
+    width: 7cm;
+}
+.commentin12{
+    display: none;
+    width: 7cm;
+}
+
+.majidsss button{
+    border: white solid 1px;
+    background: white;
+}
+
+.fa-facebook{
+color: white;
+}
+.fa-twitter{
+    color:  #55ACEE;
+}
+.fa-google-plus{
+    color: #dd4b39;
+}
+.fa-instagram{
+color: #ff6966;
+}
+.fa-youtube{
+color: #bb0000;
+}
+.butten{
+    color: #ff1800;
+    border: black solid 3px;
+}
+#musus{
+
+    background-color: white;
+border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #4CAF50;
+    color: green;
+
+}
+#musus span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s;
+}
+
+#musus span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#musus:hover span {
+    padding-right: 25px;
+}
+
+#musus:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.buttonload{
+
+    display: none;
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font-size */
+}
+.fa {
+    margin-right: -12px;
+    margin-left: 8px;
+}
+.butns{
+    width: 4cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
